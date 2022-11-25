@@ -6,3 +6,18 @@ Wow! So we can now move on.
 
 Hey, guys, check this out:
 
+#include "main.h"
+/*
+* main - Entry point
+* description: it's taofeek and nwocha coding
+* Return: 0
+*/
+int main(void)
+{
+char t, n, c;
+t = taofeek;
+n = nwocha;
+c = coding
+printf("%s\n %s\n %s\n", t, n, c);
+return 0;
+}
