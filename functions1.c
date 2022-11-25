@@ -68,7 +68,7 @@ int print_octal(va_list types, char buffer[],
 		num /= 8;
 	}
 
-	if (flags &F_HASH && init_num != 0)
+	if (flags & F_HASH && init_num != 0)
 		buffer[i--] = '0';
 
 	i++;
@@ -91,7 +91,7 @@ int print_hexadecimal(va_list types, char buffer[],
 		int flags, int width, int precision, int size)
 {
 	return (print_hexa(types, "0123456789abcdef", buffer,
-				flags,'x', width, precision, size));
+				flags, 'x', width, precision, size));
 }
 
 /**************** PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL ****************/

@@ -90,7 +90,7 @@ int print_non_printable(va_list types, char buffer[],
 	}
 	buffer[i + offset] = '\0';
 
-	return (write(1, buffer, i +offset));
+	return (write(1, buffer, i + offset));
 }
 
 /**************** PRINT REVERSE ****************/
@@ -144,7 +144,7 @@ int print_reverse(va_list types, char buffer[],
  * @buffer: buffer array to handle print
  * @flags: calculates active flags
  * @width: get width
- * @precision: precision specification 
+ * @precision: precision specification
  * @size: size specifier
  * Return: number of chars printed
  */
